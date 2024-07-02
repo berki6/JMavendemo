@@ -84,7 +84,7 @@
             </Label>
             <ImageView fitHeight="155.0" fitWidth="193.0" layoutX="129.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../icons8_health_100px.png" />
+                  <Image url="@../Resources/icons8_hospital_3_100px_2.png" />
                </image>
             </ImageView>
          </children>
