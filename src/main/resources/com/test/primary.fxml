@@ -40,7 +40,7 @@
                <children>
                   <ImageView fitHeight="36.0" fitWidth="27.0" layoutX="9.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="/" />
+                        <Image url="@../icons8_health_100px.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="36.0" layoutY="1.0" prefHeight="17.0" prefWidth="183.0" text="Your current location" textFill="#696868">
@@ -62,7 +62,7 @@
             </Button>
             <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="350.0" layoutY="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="/" />
+                  <Image url="@../icons8_health_100px.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -84,7 +84,7 @@
             </Label>
             <ImageView fitHeight="155.0" fitWidth="193.0" layoutX="129.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="/" />
+                  <Image url="@../icons8_health_100px.png" />
                </image>
             </ImageView>
          </children>
