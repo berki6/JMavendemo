@@ -16,10 +16,10 @@ public class App extends Application {
     private static Scene scene;
 
     @Override
-    public void start(Stage priamrystage) throws IOException {
+    public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
-        priamrystage.setScene(scene);
-        priamrystage.show();
+        stage.setScene(scene);
+        stage.show();
     }
 
     static void setRoot(String fxml) throws IOException {
