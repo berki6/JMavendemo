@@ -53,7 +53,7 @@
                   </Label>
                </children>
             </Pane>
-            <Button layoutX="348.0" layoutY="14.0" mnemonicParsing="false" onAction="#signOut" prefHeight="38.0" prefWidth="38.0" styleClass="goback">
+            <Button layoutX="348.0" layoutY="14.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="38.0" styleClass="goback">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
