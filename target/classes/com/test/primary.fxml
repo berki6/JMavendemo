@@ -9,13 +9,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.PrimaryController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.PrimaryController">
    <children>
       <Pane layoutX="400.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: white;">
          <children>
-            <Button layoutX="62.0" layoutY="219.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="58.0" prefWidth="276.0" text="Emergency">
+            <Button layoutX="62.0" layoutY="219.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="58.0" prefWidth="276.0" styleClass="EmergencyBtn" text="Emergency">
                <font>
                   <Font size="26.0" />
                </font>
@@ -23,7 +21,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="62.0" layoutY="324.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"  prefHeight="58.0" prefWidth="276.0" text="Medical Advice">
+            <Button layoutX="62.0" layoutY="324.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="58.0" prefWidth="276.0" styleClass="NonEmergencyBtn" text="Medical Advice">
                <font>
                   <Font name="Roboto Bold" size="26.0" />
                </font>
@@ -40,7 +38,7 @@
                <children>
                   <ImageView fitHeight="36.0" fitWidth="27.0" layoutX="9.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../icons8_health_100px.png" />
+                        <Image url="@icons8_health_100px.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="36.0" layoutY="1.0" prefHeight="17.0" prefWidth="183.0" text="Your current location" textFill="#696868">
@@ -55,14 +53,14 @@
                   </Label>
                </children>
             </Pane>
-            <Button layoutX="324.0" layoutY="14.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" text="Next" onAction="#switchToSecondary">
+            <Button layoutX="350.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToSecondary" prefHeight="35.0" prefWidth="42.0" styleClass="homeBtn">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="350.0" layoutY="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="38.0" fitWidth="34.0" layoutX="354.0" layoutY="18.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../icons8_health_100px.png" />
+                  <Image url="@icons8_health_100px.png" />
                </image>
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -70,7 +68,7 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="435.0" style="-fx-background-color: #F0323C;" >
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="435.0" style="-fx-background-color: #F0323C;">
          <children>
             <Label layoutX="42.0" layoutY="240.0" prefHeight="195.0" prefWidth="369.0" text="Are you in an Emergency or in need of a Medical Advice about anything you incur?" textFill="BISQUE" wrapText="true">
                <font>
@@ -84,7 +82,7 @@
             </Label>
             <ImageView fitHeight="155.0" fitWidth="193.0" layoutX="129.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Resources/icons8_hospital_3_100px_2.png" />
+                  <Image url="@icons8_health_100px.png" />
                </image>
             </ImageView>
          </children>
